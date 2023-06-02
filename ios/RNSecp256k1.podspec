@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "author" => "Yujun 'fingera' Liu" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/fingera/secp256k1.git@65de1ee", :tag => "v1.0.0"  }
+  s.source       = { :git => "https://github.com/fingera/secp256k1.git", :commit => "65de1ee"}
   s.source_files  = "RNSecp256k1/**/*.{h,m}"
   s.requires_arc = true
 
